@@ -10,22 +10,22 @@ import C06matriz from './componentes/C06matriz';
 function App() {
   return (
     <div>
-      <h1> Componente 1 </h1>
+      <h1> Componente 1 ================</h1>
       <C01componete />
 
-      <h1> Componente 2 </h1>
+      <h1> Componente 2 ================</h1>
       <C02contador />
 
-      <h1> Componente 3 </h1>
+      <h1> Componente 3 ================</h1>
       <C03dobleestado />
 
-      <h1> Componente 4 </h1>
-      <C04variable />
+      <h1> Componente 4 ================</h1>
+      <C04variable xVariable = "Hoy dia es viernes..." />
 
-      <h1> Componente 5 </h1>
+      <h1> Componente 5 ================</h1>
       <C05operador />
 
-      <h1> Componente 5 </h1>
+      <h1> Componente 6 ================</h1>
       <C06matriz />
     </div>
   );
